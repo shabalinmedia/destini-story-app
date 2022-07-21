@@ -16,7 +16,9 @@ class ViewController: UIViewController {
 
     @IBAction func choiceMade(_ sender: UIButton) {
         
-        let userAnswer = sender.currentTitle!
+        var userAnswer = ""
+        if let intResult = sender.currentTitle { userAnswer = intResult }
+
         storyBrain.nextStory(userAnswer)
         updateUI()
 
