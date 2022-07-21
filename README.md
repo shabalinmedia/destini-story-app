@@ -12,8 +12,8 @@ The goal of this challenge is to get you comfortable with implementing the MVC d
 In this app, you will be creating a “choose your own adventure” game similar to the App Store hit “Life Line” app. The app will tell a story depending on what the user chooses and can be fleshed out and modified to provide an engaging story-telling experience
 
 
-## What I done
-Added AutoLayout, Added logic to ViewController, used structs, and MVC. Screenshot: 
+## What I've done
+Added AutoLayout, logic to ViewController using structs and MVC. Screenshot: 
 
 
 <img src="Documentation/Simulator.png" width="200" >
