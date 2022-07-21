@@ -1,5 +1,5 @@
 
-![App Brewery Banner](Documentation/AppBreweryBanner.png)
+Screenshot: <img src="Documentation/Simulator.png" width="200" >
 
 #  Destini
 
