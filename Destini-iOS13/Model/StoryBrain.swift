@@ -10,9 +10,17 @@ struct StoryBrain {
                    Story(title: "You find a treasure chest.",
                    choice1: "Open it.",
                    choice2: "Check for traps."),
+                   Story(title: "The tiger killed you.",
+                   choice1: "",
+                   choice2: "Click to restart."),
+                   Story(title: "Now you are a rich man.",
+                   choice1: "",
+                   choice2: "Click to restart."),
     ]
     
     var questionNumber = 0
+    
+
     
     mutating func nextStory(_ userAnswer: String) {
         if userAnswer == example[questionNumber].choice1 {
@@ -21,6 +29,9 @@ struct StoryBrain {
 
         } else if userAnswer == example[questionNumber].choice2 {
             questionNumber += 2
+                if questionNumber == 5 || questionNumber == 6 {
+                    return questionNumber = 0
+                }
         }
         
     }

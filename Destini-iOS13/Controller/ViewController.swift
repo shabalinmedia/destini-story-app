@@ -22,6 +22,7 @@ class ViewController: UIViewController {
         storyBrain.nextStory(userAnswer)
         updateUI()
 
+
     }
     
     func updateUI() {
