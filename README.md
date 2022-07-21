@@ -13,9 +13,9 @@ In this app, you will be creating a “choose your own adventure” game similar
 
 
 ## What I done
-Added AutoLayout, Added logic to ViewController, used structs, and MVC.
+Added AutoLayout, Added logic to ViewController, used structs, and MVC. Screenshot: 
 
-Screenshot: 
+
 <img src="Documentation/Simulator.png" width="200" >
 
 
